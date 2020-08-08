@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.min.css">
+  <title>Crimeria</title>
+</head>
+<header class="header">
+  <div class="header__top">
+    <div class="container">
+      <div class="header__contacts">
+        <div class="header__contacts-box">
+          <p class="header__contacts-title">Пассажирские перевозки</p>
+          <p class="header__contacts-subtitle">Крым-Украина и обратно</p>
+        </div>
+        <div class="header__contacts-box">
+          <p class="header__contacts-title">Звонки по России:</p>
+          <a class="header__contacts-subtitle" href="tel:+79782172700">
+            +7 (978) 217-27-00
+          </a>
+        </div>
+        <div class="header__contacts-box">
+          <p class="header__contacts-title">Звонки из Украины</p>
+          <a class="header__contacts-subtitle" href="tel:+380954711122">
+            +38 (095) 471-11-22
+          </a>
+        </div>
+        <div class="header__contacts-box">
+          <p class="header__contacts-title">Работаем круглосуточно</p>
+          <p class="header__contacts-subtitle">00:00 - 24:00</p>
+        </div>
+        <div class="header__contacts-box">
+          <p class="header__contacts-title">Пишите нам</p>
+          <a class="header__contacts-subtitle" href="mailto:zakaz@crimea-bus.com">
+            zakaz@crimea-bus.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header Menu -->
+  <div class="header__navigation">
+    <div class="container">
+      <div class="header__navigation-inner">
+        <div class="header__logo">
+          <a href="#">
+            <img src="images/header-logo.png" alt="logo">
+          </a>
+        </div>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item active"><a href="#">Главная</a></li>
+            <li class="menu__list-item"><a href="#">Маршруты</a></li>
+            <li class="menu__list-item"><a href="#">О нас</a></li>
+            <li class="menu__list-item"><a href="#">Статьи</a></li>
+            <li class="menu__list-item"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="header__navigation-widgets">
+          <a href="#" class="widget__social-icons">
+            <img src="images/facebook.png" alt="facebook">
+          </a>
+          <a href="#" class="widget__social-icons">
+            <img src="images/vkontakte.png" alt="vk">
+          </a>
+          <a href="#" class="widget__social-icons">
+            <img src="images/instagram.png" alt="instagram">
+          </a>
+        </div>
+        <div class="info-btn btn">
+          <a href="#">Обратный звонок</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Mobile Menu -->
+  <div class="menu-btn btn-open btn-close">
+    <div class="menu-btn__inner">
+      <div class="menu-btn__line"></div>
+      <div class="menu-btn__line"></div>
+      <div class="menu-btn__line"></div>
+    </div>
+  </div>
+  <div class="overlay" style="display: none">
+    <!-- <div class="menu-btn btn-open btn-close">
+                  <div class="menu-btn__inner">
+                    <div class="menu-btn__line"></div>
+                    <div class="menu-btn__line"></div>
+                    <div class="menu-btn__line"></div>
+                  </div>
+                </div> -->
+    <nav class="menu-mobile">
+      <ul class="menu-list">
+        <li class="menu__list-item active"><a href="#">Главная</a></li>
+        <li class="menu__list-item"><a href="#">Маршруты</a></li>
+        <li class="menu__list-item"><a href="#">О нас</a></li>
+        <li class="menu__list-item"><a href="#">Статьи</a></li>
+        <li class="menu__list-item"><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- Header Slider -->
+  <div class="header__slider">
+    <div class="header__slider-item" style="background-image: url(images/header-bg-1.jpg);
+">
+      <div class="container">
+        <div class="header__slider-box">
+          <h1 class="slider__title">Билеты на автобусы из Крыма в Украину</h1>
+          <div class="slider__subtitle">по акции!</div>
+          <div class="slider__text">Мы - лучший сервис в пассажирским перевозкам
+            по маршрутам КРЫМ – УКРАИНА – КРЫМ</div>
+          <div class="slider__buttons">
+            <div class="info-btn btn">Быстрый заказ</div>
+            <div class="route-btn btn">Выбрать свой маршрут</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header__slider-item" style="background-image: url(images/header-bg-2.jpg);
+">
+      <div class="container">
+        <div class="header__slider-box">
+          <h1 class="slider__title">Билеты на автобусы из Крыма в Украину</h1>
+          <div class="slider__subtitle">по акции!</div>
+          <div class="slider__text">Мы - лучший сервис в пассажирским перевозкам
+            по маршрутам КРЫМ – УКРАИНА – КРЫМ</div>
+          <div class="slider__buttons">
+            <div class="info-btn btn">Быстрый заказ</div>
+            <div class="route-btn btn">Выбрать свой маршрут</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="information">
+  <div class="container">
+    <h3 class="information__title title">Порядок работы сервиса</h3>
+    <div class="information-box">
+      <div class="information-box__item">
+        <img src="images/info-item-1.png" alt="img">
+        <div class="information-box__title">
+          Оставьте заявку на сайт
+        </div>
+        <div class="information-box__text">
+          или позвоните нам по указанным номерам для бронирования билетов.
+        </div>
+      </div>
+      <div class="information-box__item">
+        <img src="images/info-item-2.png" alt="img">
+        <div class="information-box__title">
+          Мы зарегистрируем Вас
+        </div>
+        <div class="information-box__text">
+          на нужный Вам рейс и уточним все детали.
+        </div>
+      </div>
+      <div class="information-box__item">
+        <img src="images/info-item-3.png" alt="img">
+        <div class="information-box__title">
+          За один день до отравления
+        </div>
+        <div class="information-box__text">
+          мы напоминаем Вам о поездке, а Вы подтверждаете заказ.
+        </div>
+      </div>
+      <div class="information-box__item">
+        <img src="images/info-item-4.png" alt="img">
+        <div class="information-box__title">
+          Расплачиваетесь за поездку
+        </div>
+        <div class="information-box__text">
+          уже в автобусе, принимаем гривны и рубли по курсу.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="routes">
+  <div class="container">
+    <div class="routes__inner">
+      <div class="routes__title title">
+        Наши маршруты
+      </div>
+      <div class="route-btn btn">Выбрать свой маршрут</div>
+    </div>
+
+    <div class="routes__items">
+      <div class="routes__item">
+        <img src="images/locations-item.png" alt="img">
+        <div class="routes__item-title">
+          автобусный маршрут
+        </div>
+        <div class="routes__item-subtitle">
+          Краматорск - Ялта
+        </div>
+        <div class="routes__item-prices">
+          <p>1 000 грн</p>
+          <p>2 500 грн</p>
+        </div>
+      </div>
+      <div class="routes__item">
+        <img src="images/locations-item.png" alt="img">
+        <div class="routes__item-title">
+          автобусный маршрут
+        </div>
+        <div class="routes__item-subtitle">
+          Мирноград - Севастополь
+        </div>
+        <div class="routes__item-prices">
+          <p>1 000 грн</p>
+          <p>2 500 грн</p>
+        </div>
+      </div>
+      <div class="routes__item">
+        <img src="images/locations-item.png" alt="img">
+        <div class="routes__item-title">
+          автобусный маршрут
+        </div>
+        <div class="routes__item-subtitle">
+          Славянск - Симферополь
+        </div>
+        <div class="routes__item-prices">
+          <p>1 000 грн</p>
+          <p>2 500 грн</p>
+        </div>
+      </div>
+      <div class="routes__item">
+        <img src="images/locations-item.png" alt="img">
+        <div class="routes__item-title">
+          автобусный маршрут
+        </div>
+        <div class="routes__item-subtitle">
+          Доброполье - Алушта
+        </div>
+        <div class="routes__item-prices">
+          <p>1 000 грн</p>
+          <p>2 500 грн</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="benefits">
+  <div class="container">
+    <div class="benefits__title title">наши преимущества</div>
+    <div class="benefits__items">
+      <div class="benefits__item">
+        <img src="images/benefits-item-1.png" alt="img">
+        <div class="benefits__item-title">
+          БЫСТРЫЙ ЗАКАЗ
+        </div>
+        <div class="benefits__item-text">
+          Прием заказов в режиме 24/7. Позвоните по указанным номерам или воспользуйтесь формой обратной связи
+        </div>
+      </div>
+      <div class="benefits__item">
+        <img src="images/benefits-item-2.png" alt="img">
+        <div class="benefits__item-title">
+          БЕЗ
+          ПРЕДОПЛАТЫ
+        </div>
+        <div class="benefits__item-text">
+          Оплата за поездку
+          при посадке - самый простой способ оплаты.
+        </div>
+      </div>
+      <div class="benefits__item">
+        <img src="images/benefits-item-3.png" alt="img">
+        <div class="benefits__item-title">
+          ЛУЧШИЕ
+          МАРШРУТЫ
+        </div>
+        <div class="benefits__item-text">
+          Наши маршруты охватывают все побережье Крыма и направляются во все областные города Украины и обратно.
+        </div>
+      </div>
+      <div class="benefits__item">
+        <img src="images/benefits-item-4.png" alt="img">
+        <div class="benefits__item-title">
+          АКЦИИ
+          И СКИДКИ
+        </div>
+        <div class="benefits__item-text">
+          Акции - при раннем бронировании. Скидки на обратную дорогу при бронировании билетов в два конца и многое другое.
+        </div>
+      </div>
+      <div class="benefits__item">
+        <img src="images/benefits-item-5.png" alt="img">
+        <div class="benefits__item-title">
+          КОМФОРТ
+          для вас
+        </div>
+        <div class="benefits__item-text">
+          Все автобусы соответствуют высоким стандартам комфорта.
+        </div>
+      </div>
+      <div class="benefits__item">
+        <img src="images/benefits-item-6.png" alt="img">
+        <div class="benefits__item-title">
+          ваша
+          БЕЗОПАСНОСТЬ
+        </div>
+        <div class="benefits__item-text">
+          Опытные водители с большим стажем пассажирских перевозок.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="about">
+  <div class="container">
+    <div class="about__inner">
+      <div class="about__info">
+        <h1 class="about__title title">О нашей компании</h1>
+        <div class="about__text">
+          <p>Компания "Крымский автобус" - занимает лидирующие позиции по пассажирским перевозкам в Крыму с 2010г.
+          </p>
+          <p>Наш сервис crimea-bus.com - это еще один шаг навстречу нашим клиентам. Теперь забронировать билет на автобус стало еще проще. Вам стоит лишь позвонить по указанному номеру или воспользоваться формой быстрого заказа.</p>
+          <p>Сотрудники нашего Call-центра перезвонят Вам в кратчайшие сроки, уточнят все детали, помогут определиться с багажом, проконсультируют по документам для пересечения границы. Мы делаем все чтобы Вам былокомфортно путешествовать вместе с нами.</p>
+          <p>С уважением,
+            Коллектив компании "Крымский автобус".</p>
+        </div>
+      </div>
+      <div class="about__slider-box">
+        <div class="about__slider">
+          <div class="about__slider-item">
+            <div class="wwweee">
+              <img src="images/about-item-1.png" alt="img">
+              <img src="images/about-item-2.png" alt="img">
+            </div>
+          </div>
+          <div class="about__slider-item">
+            <div class="wwweee">
+              <img src="images/about-item-1.png" alt="img">
+              <img src="images/about-item-2.png" alt="img">
+            </div>
+          </div>
+          <div class="about__slider-item">
+            <div class="wwweee">
+              <img src="images/about-item-1.png" alt="img">
+              <img src="images/about-item-2.png" alt="img">
+            </div>
+          </div>
+          <div class="about__slider-item">
+            <div class="wwweee">
+              <img src="images/about-item-1.png" alt="img">
+              <img src="images/about-item-2.png" alt="img">
+            </div>
+          </div>
+        </div>
+        <div class="about__slider-text">
+          <a href="#">смотреть все фото</a>
+        </div>
+      </div>
+    </div>
+    <div class="order-box">
+      <div class="order-box__info">
+        <p class="order-box__text"><span>заказать</span>микроавтобус по Крыму</p>
+      </div>
+      <div class="order-box__form">
+        <form>
+          <div class="form-box">
+            <input class="input__name" type="text" placeholder="Ваше имя">
+            <input class="input__number" type="text" placeholder="Номер телефона">
+            <div class="form-checkbox">
+              <input type="checkbox" class="custom-checkbox" id="checkbox1">
+              <label for="checkbox1">Микроавтобус на 8 мест</label>
+              <input type="checkbox" class="custom-checkbox" id="checkbox2">
+              <label for="checkbox2">Микроавтобус на 21 мест</label>
+            </div>
+          </div>
+
+          <div class="form-box">
+            <textarea placeholder="Детали поездки"></textarea>
+            <button class="info-btn btn" type="submit">Заказать</button>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faqs">
+  <div class="container">
+    <div class="faqs__inner">
+      <div class="faqs-box">
+        <h1 class="faqs__title title">
+          часто задаваемые
+          вопросы
+        </h1>
+        <div class="faqs__item">
+          <h4 class="faqs__item-title">
+            Как перевезти крупногабаритный багаж?
+          </h4>
+          <p class="faqs__item-text">
+            Обычно билеты бронируют за 3-5 дней до отправления автобуса.
+          </p>
+        </div>
+        <div class="faqs__item">
+          <h4 class="faqs__item-title">
+            Как перевезти крупногабаритный багаж?
+          </h4>
+          <p class="faqs__item-text">
+            Обычно билеты бронируют за 3-5 дней до отправления автобуса.
+          </p>
+        </div>
+        <div class="faqs__item">
+          <h4 class="faqs__item-title">
+            Как перевезти крупногабаритный багаж?
+          </h4>
+          <p class="faqs__item-text">
+            Обычно билеты бронируют за 3-5 дней до отправления автобуса.
+          </p>
+        </div>
+        <div class="faqs__item">
+          <h4 class="faqs__item-title">
+            Как перевезти крупногабаритный багаж?
+          </h4>
+          <p class="faqs__item-text">
+            Обычно билеты бронируют за 3-5 дней до отправления автобуса.
+          </p>
+        </div>
+        <div class="faqs__item">
+          <h4 class="faqs__item-title">
+            Как перевезти крупногабаритный багаж?
+          </h4>
+          <p class="faqs__item-text">
+            Обычно билеты бронируют за 3-5 дней до отправления автобуса.
+          </p>
+        </div>
+        <div class="faqs__item">
+          <h4 class="faqs__item-title">
+            Как перевезти крупногабаритный багаж?
+          </h4>
+          <p class="faqs__item-text">
+            Обычно билеты бронируют за 3-5 дней до отправления автобуса.
+          </p>
+        </div>
+      </div>
+      <div class="faqs__info-box">
+        <h1 class="faqs__info-title title">Полезная информация</h1>
+        <div class="faqs__slider">
+          <div class="faqs__info-item">
+            <div class="faqs__info-item-box">
+              <img src="images/faqs-info-item.png" alt="img">
+              <div class="faqs__info-box__inner">
+                <h4 class="faqs__info-item__title">
+                  Поездки из Крыма в Украину
+                  и обратно
+                </h4>
+                <div class="faqs__info-item__data">
+                  24 октября 2020
+                </div>
+              </div>
+            </div>
+            <div class="faqs__info-item-box">
+              <img src="images/faqs-info-item.png" alt="img">
+              <div class="faqs__info-box__inner">
+                <h4 class="faqs__info-item__title">
+                  Поездки из Крыма в Украину
+                  и обратно
+                </h4>
+                <div class="faqs__info-item__data">
+                  24 октября 2020
+                </div>
+              </div>
+            </div>
+            <div class="faqs__info-item-box">
+              <img src="images/faqs-info-item.png" alt="img">
+              <div class="faqs__info-box__inner">
+                <h4 class="faqs__info-item__title">
+                  Поездки из Крыма в Украину
+                  и обратно
+                </h4>
+                <div class="faqs__info-item__data">
+                  24 октября 2020
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="faqs__info-item">
+            <div class="faqs__info-item-box">
+              <img src="images/faqs-info-item.png" alt="img">
+              <div class="faqs__info-box__inner">
+                <h4 class="faqs__info-item__title">
+                  Поездки из Крыма в Украину
+                  и обратно
+                </h4>
+                <div class="faqs__info-item__data">
+                  24 октября 2020
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="faqs__info-item">
+            <div class="faqs__info-item-box">
+              <img src="images/faqs-info-item.png" alt="img">
+              <div class="faqs__info-box__inner">
+                <h4 class="faqs__info-item__title">
+                  Поездки из Крыма в Украину
+                  и обратно
+                </h4>
+                <div class="faqs__info-item__data">
+                  24 октября 2020
+                </div>
+              </div>
+            </div>
+            <div class="faqs__info-item-box">
+              <img src="images/faqs-info-item.png" alt="img">
+              <div class="faqs__info-box__inner">
+                <h4 class="faqs__info-item__title">
+                  Поездки из Крыма в Украину
+                  и обратно
+                </h4>
+                <div class="faqs__info-item__data">
+                  24 октября 2020
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="faqs__info-text">
+          <a href="#">смотреть все</a>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="reviews">
+  <div class="container">
+    <div class="reviews__inner">
+      <div class="reviews__title title">
+        отзывы наших клиентов
+      </div>
+      <div class="info-btn btn">Быстрый заказ тура</div>
+    </div>
+    <div class="reviews__items">
+
+      <div class="reviews__item">
+        <div class="reviews__item-box">
+          <div class="reviews__item-box__info">
+            <div class="reviews__item-box__title">Рустам Фагеев
+            </div>
+            <div class="reviews__item-box__subtitle">Музыкант, 25лет</div>
+          </div>
+          <div class="reviews__item-box__text">
+            Ехал с Ялты в Краматорск. Удобный способ заказа, без предоплаты, что радует. Микроавтобус комфортный. Границу прошли быстро. Удобно, что без пересадок.
+          </div>
+        </div>
+      </div>
+      <div class="reviews__item">
+        <div class="reviews__item-box">
+          <div class="reviews__item-box__info">
+            <div class="reviews__item-box__title">Рустам Фагеев
+            </div>
+            <div class="reviews__item-box__subtitle">Музыкант, 25лет</div>
+          </div>
+          <div class="reviews__item-box__text">
+            Ехал с Ялты в Краматорск. Удобный способ заказа, без предоплаты, что радует. Микроавтобус комфортный. Границу прошли быстро. Удобно, что без пересадок.
+          </div>
+        </div>
+      </div>
+      <div class="reviews__item">
+        <div class="reviews__item-box">
+          <div class="reviews__item-box__info">
+            <div class="reviews__item-box__title">Рустам Фагеев
+            </div>
+            <div class="reviews__item-box__subtitle">Музыкант, 25лет</div>
+          </div>
+          <div class="reviews__item-box__text">
+            Ехал с Ялты в Краматорск. Удобный способ заказа, без предоплаты, что радует. Микроавтобус комфортный. Границу прошли быстро. Удобно, что без пересадок.
+          </div>
+        </div>
+      </div>
+      <div class="reviews__item">
+        <div class="reviews__item-box">
+          <div class="reviews__item-box__info">
+            <div class="reviews__item-box__title">Рустам Фагеев
+            </div>
+            <div class="reviews__item-box__subtitle">Музыкант, 25лет</div>
+          </div>
+          <div class="reviews__item-box__text">
+            Ехал с Ялты в Краматорск. Удобный способ заказа, без предоплаты, что радует. Микроавтобус комфортный. Границу прошли быстро. Удобно, что без пересадок.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="review__text">
+    <a href="#">
+      смотреть все
+    </a>
+  </div>
+</section>
+
+<div class="statistics">
+  <div class="container">
+    <div class="stats__inner">
+      <div class="stats__item">
+        <div class="stats__item-num">
+          8
+        </div>
+        <div class="stats__item-text">
+          8 лет на рынке
+        </div>
+      </div>
+      <div class="stats__item">
+        <div class="stats__item-num">
+          15400
+        </div>
+        <div class="stats__item-text">
+          Тысячи довольных пассажиров
+        </div>
+      </div>
+      <div class="stats__item">
+        <div class="stats__item-num">
+          230
+        </div>
+        <div class="stats__item-text">
+          Более 200 онлайн-заказов в день
+        </div>
+      </div>
+      <div class="stats__item">
+        <div class="stats__item-num">
+          37
+        </div>
+        <div class="stats__item-text">
+          Более 30 маршрутов ежедневно
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__logo">
+        <img src="images/footer-logo.png" alt="logo">
+        <div class="footer__text">
+          <p>Пассажирские перевозки<span>Крым-Украина и обратно</span></p>
+        </div>
+      </div>
+      <div class="footer__item foot-list">
+        <ul class="footer__menu-list">
+          <li class="footer__list-item">
+            <a href="#">Главная</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#">Маршруты</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#">О нас</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#">Статьи</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__item  foot-box">
+        <div class="footer__item-box item-1">
+          <div class="footer__contacts-box">
+            <p class="footer__contacts-title">Звонки по России:</p>
+            <a class="footer__contacts-subtitle" href="tel:+79782172700">
+              +7 (978) 217-27-00
+            </a>
+          </div>
+          <div class="footer__contacts-box">
+            <p class="footer__contacts-title">Работаем круглосуточно</p>
+            <p class="footer__contacts-subtitle">00:00 - 24:00</p>
+          </div>
+        </div>
+        <div class="footer__item-box item-2">
+          <div class="footer__contacts-box">
+            <p class="footer__contacts-title">Звонки из Украины</p>
+            <a class="footer__contacts-subtitle" href="tel:+380954711122">
+              +38 (095) 471-11-22
+            </a>
+          </div>
+          <div class="footer__contacts-box">
+            <p class="footer__contacts-title">Пишите нам</p>
+            <a class="footer__contacts-subtitle" href="mailto:zakaz@crimea-bus.com">
+              zakaz@crimea-bus.com
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__item foot-btn">
+        <div class="info-btn btn">
+          <a href="#">Обратный звонок</a>
+        </div>
+        <div class="footer__social-widgets">
+          <a href="#" class="widget__social-icons">
+            <img src="images/facebook.png" alt="facebook">
+          </a>
+          <a href="#" class="widget__social-icons">
+            <img src="images/vkontakte.png" alt="vk">
+          </a>
+          <a href="#" class="widget__social-icons">
+            <img src="images/instagram.png" alt="instagram">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
