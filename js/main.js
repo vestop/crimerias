@@ -1,4 +1,5 @@
 $(function () {
+  //Header
   $(".header__slider").slick({
     autoplay: true,
     autoplaySpeed: 4000,
@@ -7,6 +8,7 @@ $(function () {
     nextArrow:
       '<button class="slick-next"><img src="images/arrow-right.png" alt=""></button>',
   });
+  //About Section
   $(".about__slider").slick({
     slidesToShow: 1,
     prevArrow:
@@ -15,7 +17,7 @@ $(function () {
       '<button class="slick-next"><img src="images/arrow-right-black.png" alt=""></button>',
   });
 
-  //Faqs
+  //Faqs Section
   $(".faqs__item-title").on("click", function () {
     $(".faqs__item").removeClass("faqs__item--active");
     $(this).parent().addClass("faqs__item--active");
@@ -27,7 +29,10 @@ $(function () {
     nextArrow:
       '<button class="slick-next"><img src="images/arrow-right-black.png" alt=""></button>',
     fade: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
   });
+  //Reviews Section
   $(".reviews__items").slick({
     prevArrow:
       '<button class="slick-prev"><img src="images/arrow-left-black.png" alt=""></button>',
@@ -43,6 +48,7 @@ $(function () {
       },
     ],
   });
+  //Routes Section
   $(".routes__items").slick({
     prevArrow:
       '<button class="slick-prev"><img src="images/arrow-left-black.png" alt=""></button>',
@@ -71,6 +77,7 @@ $(function () {
       },
     ],
   });
+  ///Burger Menu
   $(".menu-btn").click(function () {
     $(".overlay").fadeToggle(200);
     $(this).toggleClass("btn-open").toggleClass("btn-close");
